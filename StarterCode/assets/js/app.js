@@ -120,7 +120,7 @@ d3.csv("assets/data/data.csv").then(function(data) {
     .text("Poverty")
     .attr("font-size", 20); 
 
-      // text label for the y axis
+      // text label for the Y axis
     svg.append("text")
     .attr("transform", "translate(0," + (chartHeight / 2) + ") rotate(-90)")
 
